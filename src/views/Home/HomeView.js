@@ -5,7 +5,7 @@ export class HomeView {
         <h1>Page d'Accueil - Liste des catégories</h1>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/vestibulum-ante'">
                     <img src="https://picsum.photos/id/1001/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -15,7 +15,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/maecenas'">
                     <img src="https://picsum.photos/id/1002/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -25,7 +25,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/justo'">
                     <img src="https://picsum.photos/id/1003/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -35,7 +35,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/lorem-integer'">
                     <img src="https://picsum.photos/id/1004/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -45,7 +45,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/aliquet-massa'">
                     <img src="https://picsum.photos/id/1005/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -55,7 +55,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/adipiscing-lorem'">
                     <img src="https://picsum.photos/id/1006/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -65,7 +65,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/pellentesque'">
                     <img src="https://picsum.photos/id/1010/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -75,7 +75,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/aodio'">
                     <img src="https://picsum.photos/id/1008/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -85,7 +85,7 @@ export class HomeView {
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-3">
-                <div class="card">
+                <div class="card" onclick="location.href='/category/odio-porttitor'">
                     <img src="https://picsum.photos/id/1009/600/400" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>

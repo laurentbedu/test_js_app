@@ -5,5 +5,6 @@ export class HomeController{
         const view = new HomeView();
         const content = view.render();
         return content;
+        
     }
 }
