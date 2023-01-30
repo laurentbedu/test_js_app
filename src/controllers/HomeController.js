@@ -1,8 +1,9 @@
 export class HomeController{
 
     async execute(){
-        const resp = await fetch('http://app-js.loc/src/views/HomeView.html');
-        const view = await resp.text();
-        return view;
+        const {HomeView} = await import('../views/Home/HomeView.js');
+        const view = new HomeView();
+        const content = view.render();
+        return content;
     }
 }
