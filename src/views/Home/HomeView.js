@@ -1,4 +1,5 @@
 export class HomeView {
+    
   render = () => {
     return `
     <div id="HomeView">
