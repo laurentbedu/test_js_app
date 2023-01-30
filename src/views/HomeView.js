@@ -1,6 +1,6 @@
 export class HomeView {
 
-
+    //TODO categories
 
   render = () => {
     return `
