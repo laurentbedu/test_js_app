@@ -8,14 +8,25 @@
   </head>
   <body class="container">
     
-    <div class="p-2">
+    <div class="p-2 d-flex">
       <a href="/home" class="spa-link btn btn-primary me-2">Accueil</a>
-      <a href="/category" class="spa-link btn btn-primary me-2" >Catégories</a>
-      <a href="/product/1" class="spa-link btn btn-primary me-2" >Détail Produit 1</a>
-      <a href="/product/2" class="spa-link btn btn-primary me-2" >Détail Produit 2</a>
-      
+      <div class="dropdown ms-auto">
+        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Catégories
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="/category/vestibulum-ante">vestibulum ante</a></li>
+          <li><a class="dropdown-item" href="/category/maecenas">maecenas</a></li>
+          <li><a class="dropdown-item" href="/category/justo">justo</a></li>
+          <li><a class="dropdown-item" href="/category/lorem-integer">lorem integer</a></li>
+          <li><a class="dropdown-item" href="/category/aliquet-massa">aliquet massa</a></li>
+          <li><a class="dropdown-item" href="/category/adipiscing-lorem">adipiscing lorem</a></li>
+          <li><a class="dropdown-item" href="/category/pellentesque">pellentesque</a></li>
+          <li><a class="dropdown-item" href="/category/aodio">aodio</a></li>
+          <li><a class="dropdown-item" href="/category/odio-porttitor">odio porttitor</a></li>
+        </ul>
+      </div>
     </div>
-    
 
     <div id="root">
         
