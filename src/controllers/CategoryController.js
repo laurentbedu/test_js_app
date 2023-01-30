@@ -5,7 +5,7 @@ export class CategoryController{
     }
 
     async execute(){
-        const {CategoryView} = await import('../views/Category/CategoryView.js');
+        const {CategoryView} = await import('../views/CategoryView.js');
         const view = new CategoryView(this.categoryName);
         const content = view.render();
         return content;

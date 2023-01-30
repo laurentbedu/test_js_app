@@ -1,9 +1,10 @@
 export class HomeView {
 
-    
+
 
   render = () => {
     return `
+    <link rel="stylesheet" href="/assets/css/HomeView.css">
     <div id="HomeView">
         <h1>Page d'Accueil - Liste des catégories</h1>
         <div class="row">
