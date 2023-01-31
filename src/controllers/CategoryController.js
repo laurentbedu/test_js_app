@@ -1,7 +1,7 @@
 export class CategoryController{
 
     constructor(params){
-        this.categoryName = params.pop()?.replace('-', ' ');
+        this.categoryName = params?.pop()?.replace('-', ' ');
     }
 
     async execute(){
