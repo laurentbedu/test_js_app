@@ -22,7 +22,8 @@ export class App{
             }
             const controller = new ContollerClass(routeItems);
             const vm = await controller.execute();
-            document.getElementById("root").innerHTML = vm;
+            document.getElementById("root").innerHTML = '';
+            document.getElementById("root").append(vm);
         }
     }
 
